@@ -1,0 +1,137 @@
+html {
+  display: flex;
+  background-color: #3E92CC;
+}
+h1 {
+  font-size: 50px;
+  margin-bottom: 10%;
+  
+
+  
+}
+
+.form {
+  font-family: monospace;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FFFAFF;
+  border-color: #0A2463;
+  border-width: 10px;
+  border-radius: 15px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20%;
+  margin-top: 5%;
+}
+
+.textboxes input[type=text] {
+  height: 45px;
+  width: 60%;
+  border-radius: 8px;
+  margin-bottom: 10%;
+}
+
+.textboxes2 input[type=text] {
+  height: 45px;
+  width: 60%;
+  border-radius: 8px;
+}
+
+h2{
+  font-size: 30px;
+  color: #0A2463;
+}
+
+h3 {
+  font-size: 30px;
+  color: #0A2463;
+}
+
+button {
+  background-color: #3E92CC;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  height: 60px;
+  width: 200px;
+  margin-top: 15%;
+  margin-bottom: 5%;
+
+}
+button:hover {
+  background-color: white;
+  color: #3E92CC;
+}
+
+.bttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bttn button {
+  margin-left: 10px;
+}
+
+.bttn button:first-child {
+  margin-left: 0;
+}
+
+.bttn {
+  gap: 30px;
+}
+
+.createbttn {
+  margin-top: 80px;
+  
+}
+
+.Tabs {
+  font-family: monospace;
+  margin: 0 auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #0A2463;
+  border-color: black;
+  border-width: 10px;
+  border-radius: 15px;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 20%;
+  margin-top: 5%;
+}
+
+.Tabs h2 {
+  color: white;
+}
+
+.styled {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.bttn2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+.bttn2 a {
+  text-decoration: none;
+}
+a:hover {
+  color: #3E92CC; /* changes the color of the text on hover */
+}
